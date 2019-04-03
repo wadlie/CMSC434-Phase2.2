@@ -27,8 +27,9 @@ class Counter extends React.Component {
     } else if (displayNum === 3){
       selector = <Classes/>;
     } else if (displayNum === 4){
-      selector = <Events/>;
-    } else {
+      selector = <Events/>; 
+    }
+	else {
       selector = this.props.display;
     }
 
@@ -79,6 +80,7 @@ class CounterParent extends React.Component {
       count: 4
     });
   }
+  
 
 
   render() {
