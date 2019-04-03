@@ -8,7 +8,7 @@ class Events extends Component {
 		/*
 			do something with an image change.
 		*/
-		
+		document.getElementById('calendar_img').setAttribute('src', 'http://clipart-library.com/data_images/436942.png')
 	}
 
     render() {
@@ -19,20 +19,10 @@ class Events extends Component {
             overflow: "hidden"
         }
 		// eslint-disable-next-line
-		var buttonStyle = {
-		  fontSize: "1em",
-		  width: "10%",
-		  height: "10%",
-		  fontFamily: "sans-serif",
-		  fontWeight: "thin",
-		  lineHeight: "3px",
-		  margin: "5px",
-		  padding: "0px"
-		};
 		
         return (
             <div style={displayStyle}>
-                <img src="https://cdn.vertex42.com/calendars/images/blank-calendar-monthly.png" alt="PH"></img>
+                <img id = "calendar_img" src="https://cdn.vertex42.com/calendars/images/blank-calendar-monthly.png" alt="PH" ></img>
             </div>
         );
     }
