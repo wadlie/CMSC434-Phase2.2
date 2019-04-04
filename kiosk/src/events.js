@@ -10,8 +10,12 @@ class Events extends Component {
 		*/
 		document.getElementById('calendar_img').setAttribute('src', 'http://clipart-library.com/data_images/436942.png')
 	}
-
+	
+	
+	
     render() {
+		
+		
         var displayStyle = {
             display: "block",
             weight: "100%",
@@ -21,9 +25,12 @@ class Events extends Component {
 		// eslint-disable-next-line
 		
         return (
+			
             <div style={displayStyle}>
                 <img id = "calendar_img" src="https://cdn.vertex42.com/calendars/images/blank-calendar-monthly.png" alt="PH" ></img>
-            </div>
+				<button onClick={this.goToEvent} class="myButton">Pizza Party</button>
+           
+			</div>
         );
     }
 
