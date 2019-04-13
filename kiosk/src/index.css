@@ -43,3 +43,24 @@
     position:relative;
     top:1px;
 }
+
+.homebtn {
+    background-color: #404040;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.fa:hover {
+    color: RoyalBlue;
+    opacity: 0.5;
+}
+/* Darker background on mouse-over
+.homebtn:hover {
+    background-color: RoyalBlue;
+}
+*/
+body, html, .container-fluid {
+    height: 100%;
+}

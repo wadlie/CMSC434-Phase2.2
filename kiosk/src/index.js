@@ -5,6 +5,7 @@ import Professors from "./professors";
 import Rooms from "./rooms";
 import Classes from "./classes";
 import Events from "./events";
+import HomePage from "./homePage"
 import 'bootstrap/dist/css/bootstrap.css';
 
 class Counter extends React.Component {
@@ -28,6 +29,8 @@ class Counter extends React.Component {
       selector = <Classes/>;
     } else if (displayNum === 4){
       selector = <Events/>; 
+    } else if (displayNum === 0){
+        selector = <HomePage/>;
     }
 	else {
       selector = this.props.display;
@@ -54,8 +57,14 @@ class CounterParent extends React.Component {
     this.setRoom = this.setRoom.bind(this);
     this.setClass = this.setClass.bind(this);
     this.setEvents = this.setEvents.bind(this);
+    this.setHome = this.setHome.bind(this);
   }
 
+  setHome() {
+    this.setState({
+      count: 0
+    });
+  }
   setProfessor() {
 
     this.setState({
@@ -88,14 +97,15 @@ class CounterParent extends React.Component {
       width: "95%",
     height: "100%",
     padding: "10px",
-    border: "5px solid gray",
+    border: "5px solid black",
     margin: "40px",
     borderRadius: "20px",
+      boxShadow: "inset 0 0 10px",
     backgroundColor: "#404040"
     };
     var buttonStyle = {
       fontSize: "1em",
-      width: "50%",
+      width: "70%",
       height: "20%",
       fontFamily: "sans-serif",
       fontWeight: "bold",
@@ -106,42 +116,65 @@ class CounterParent extends React.Component {
     var setUpStyle = {
       width: "100%",
       height: "100%",
-      display: "inline-flex"
+      display: "inline-flex",
+      paddingLeft: "0px",
+      paddingRight: "50px"
     }
     var buttonDivStyle = {
       width: "25%",
       height: "100%",
     display: "inline-block",
-      textAlign: "center",
       margin: "5px",
-      border: "5px"
+      border: "5px",
+      paddingLeft: "0px",
+      top: "15px"
     }
     var counterBack = {
       padding: 10,
       margin: 5,
-      backgroundColor: "#FFC53A",
+      backgroundColor: "white",
       width: "70%",
       height: "95%",
       borderRadius: 10,
       textAlign: "center",
-      display: "inline-block"
+      display: "inline-block",
+      top: "10px",
+      borderColor: "black",
+      borderStyle: "solid",
+      borderWidth: "10px"
     };
 
+    var singleRowStyle = {
+      height: "100%"
+    }
+    var homeButtonStyle = {
+      paddingRight: "0px",
+
+    }
+    var homeIcon = {
+      color: "white",
+      fontSize: "3em"
+    }
     return (
-        <div style={backgroundStyle}>
-          <div style={setUpStyle}>
-            <div style={buttonDivStyle}>
-              <button onClick={this.setProfessor} style={buttonStyle}  class="myButton">Professors</button>
+        <div style={backgroundStyle} className="container-fluid">
+          <div className="row" style={singleRowStyle}>
+          <div className="col-1" style={homeButtonStyle}>
+            <button onClick={this.setHome} className="homebtn"><i style={homeIcon} className="fa fa-home"></i> </button>
+          </div>
+          <div style={setUpStyle} class="col-sm">
+            <div style={buttonDivStyle} className="col-sm-3">
+              <button onClick={this.setProfessor} style={buttonStyle}  className="myButton">Professors</button>
               <br/>
-              <button onClick={this.setRoom} style={buttonStyle} class="myButton">Rooms</button>
+              <button onClick={this.setRoom} style={buttonStyle} className="myButton">Rooms</button>
               <br/>
-              <button onClick={this.setClass} style={buttonStyle} class="myButton">Classes</button>
+              <button onClick={this.setClass} style={buttonStyle} className="myButton">Map</button>
               <br/>
-              <button onClick={this.setEvents} style={buttonStyle} class="myButton">Events</button>
+              <button onClick={this.setEvents} style={buttonStyle} className="myButton">Events</button>
             </div>
-            <div style={counterBack}>
+            <div style={counterBack} className="col-sm">
               <Counter display={this.state.count} />
             </div>
+          </div>
           </div>
         </div>
     );
