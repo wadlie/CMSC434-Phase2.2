@@ -40,13 +40,19 @@ class Events extends Component {
 		// eslint-disable-next-line
 		
         return (
-			
-            <div style={displayStyle}>
-				<img id = "calendar_img" src="https://cdn.vertex42.com/calendars/images/blank-calendar-monthly.png" alt="PH" ></img>
-				<div style={submitButton}>
-					<button id = "pizza_button" onClick={this.goToEvent} class="myButton">Pizza Party</button>
+			<div class="container" style={displayStyle}>
+			<img id = "calendar_img" src="eventimgs/calendar.jpg" alt="PH" ></img>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="button-group" style={submitButton}>
+							<button id = "pizza_button" onClick={this.goToEvent} class="myButton">Pizza Party</button>
+						</div>
+					</div>
 				</div>
+				 <div class="col-sm-6">
+				 </div>
 			</div>
+			
         );
     }
 
