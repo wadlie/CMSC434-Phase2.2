@@ -11,11 +11,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 class Counter extends React.Component {
   render() {
     var textStyle = {
-      fontSize: 72,
       fontFamily: "sans-serif",
       color: "#333",
       fontWeight: "bold",
-      weight: "100%",
+      width: "100%",
       height: "100%"
     };
     const displayNum = this.props.display;
@@ -50,7 +49,8 @@ class CounterParent extends React.Component {
     super(props);
 
     this.state = {
-      count: 0
+      count: 0,
+      title: "Home"
     };
 
     this.setProfessor = this.setProfessor.bind(this);
@@ -62,31 +62,36 @@ class CounterParent extends React.Component {
 
   setHome() {
     this.setState({
-      count: 0
+      count: 0,
+      title: "Home"
     });
   }
   setProfessor() {
 
     this.setState({
-      count: 1
+      count: 1,
+      title: "Directory"
     });
   }
   setRoom() {
 
     this.setState({
-      count: 2
+      count: 2,
+      title: "Rooms"
     });
   }
   setClass() {
 
     this.setState({
-      count: 3
+      count: 3,
+      title: "Map"
     });
   }
   setEvents() {
 
     this.setState({
-      count: 4
+      count: 4,
+      title: "Events"
     });
   }
   
@@ -130,7 +135,7 @@ class CounterParent extends React.Component {
       top: "15px"
     }
     var counterBack = {
-      padding: 10,
+      padding: 0,
       margin: 5,
       backgroundColor: "white",
       width: "70%",
@@ -155,24 +160,34 @@ class CounterParent extends React.Component {
       color: "white",
       fontSize: "3em"
     }
+    var titleHeaderStyle = {
+      textAlign: "center",
+      paddingLeft:"48%",
+      paddingRight:"42%",
+      borderBottomStyle: "solid",
+      borderWidth: "5px"
+    }
     return (
         <div style={backgroundStyle} className="container-fluid">
           <div className="row" style={singleRowStyle}>
           <div className="col-1" style={homeButtonStyle}>
             <button onClick={this.setHome} className="homebtn"><i style={homeIcon} className="fa fa-home"></i> </button>
           </div>
-          <div style={setUpStyle} class="col-sm">
+          <div style={setUpStyle} className="col-sm">
             <div style={buttonDivStyle} className="col-sm-3">
-              <button onClick={this.setProfessor} style={buttonStyle}  className="myButton">Professors</button>
+              <button onClick={this.setProfessor} style={buttonStyle}  className="myButton">Directory</button>
               <br/>
-              <button onClick={this.setRoom} style={buttonStyle} className="myButton">Rooms</button>
+              <button onClick={this.setRoom} style={buttonStyle} className="myButton">Room Reserve</button>
               <br/>
               <button onClick={this.setClass} style={buttonStyle} className="myButton">Map</button>
               <br/>
               <button onClick={this.setEvents} style={buttonStyle} className="myButton">Events</button>
             </div>
             <div style={counterBack} className="col-sm">
-              <Counter display={this.state.count} />
+              <div className={"container-fluid"}>
+                <div className="row" style={titleHeaderStyle}> {this.state.title}</div>
+                <div className="row" style={{height:"95%"}}><Counter display={this.state.count} /></div>
+              </div>
             </div>
           </div>
           </div>

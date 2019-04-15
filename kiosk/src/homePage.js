@@ -10,11 +10,10 @@ class Home extends Component {
             display: "block",
             weight: "100%",
             height: "100%",
-            overflow: "hidden"
         }
         return (
             <div style={displayStyle}>
-                <img src="https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview" alt="PH"></img>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpq8T9bdcQpy2myWNZhLI5m6YGbyugIPV-FY26kj17-W9Jo6Kj" alt="PH"></img>
             </div>
         );
     }
