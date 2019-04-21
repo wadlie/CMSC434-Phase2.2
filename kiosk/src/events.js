@@ -41,10 +41,10 @@ class Events extends Component {
     showPop(){
         
             return (
-                <div style={{display:"block",width:"100%",height:"100%"}} className="container">
+                <div style={{display:"block",width:"100%",height:"100%"}} className="container-fluid">
                     <div className="row" style={{height:"100%",width:"100%"}}>
-                        <div className="col-12">
-							<img onClick={this.changeImg} style={{maxWidth:"940px",maxHeight:"940px"}} src ={this.state.shownImg}/>
+                        <div className="col-12" style={{padding:10}}>
+							<img onClick={this.changeImg} className="img-fluid" style={{maxWidth:"100%",maxHeight:"100%"}} src ={this.state.shownImg}/>
                         </div>
                     </div>
                 </div>
