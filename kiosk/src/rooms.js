@@ -54,7 +54,7 @@ class Rooms extends Component {
     showPop(){
         if (this.state.room === true){
             return (
-                <div style={{display:"block",width:"100%",height:"100%"}} className="container">
+                <div style={{display:"block",width:"100%",height:"100%"}}  className="container-fluid">
                     <div className="row"style={{height:"10%",paddingTop:"5px"}}>
                         <div className="col-1" style={{paddingLeft: 1}}>
                             <button onClick={this.goBack} className="backBtn"><i style={{fontSize:"2em"}} className="fa fa-arrow-left"></i> </button>
@@ -78,7 +78,7 @@ class Rooms extends Component {
             )
         } else {
             return (
-                <div style={{display:"block",width:"100%",height:"100%"}} className="container">
+                <div style={{display:"block",width:"100%",height:"100%"}} className="container-fluid">
                     <div className="row" style={{height:"10%",paddingTop:10}}>
                         <div className="col-6" style={{height:"100%"}}>
                             <form >
