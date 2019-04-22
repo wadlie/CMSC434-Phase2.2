@@ -8,12 +8,14 @@ class Classes extends Component {
 		this.state = {floor: 0, room: 0, imgURL: '/images/ground0000.png'};
 		this.handleSubmit = this.handleSubmit.bind(this);
 		this.handleChange = this.handleChange.bind(this);
+		this.updateInput = this.updateInput.bind(this);
 	}
 
     render() {
         var displayStyle = {
             display: "block",
-            width: "75%",
+            width: "65%",
+		marginLeft: "17%",
             overflow: "hidden"
         }
         return (
@@ -27,7 +29,7 @@ class Classes extends Component {
 		  		<option value="na">Floor 5</option>
 			</select>
 			<form onSubmit={this.handleSubmit}>
-				<input type = "text"/>
+				<input type = "text" onChange={this.updateInput}/>
 				<button type="submit"><i class="fa fa-search"></i></button><div class="dropdown">
 		</div>
 		</form>
@@ -36,13 +38,46 @@ class Classes extends Component {
 	);
     }
 	handleSubmit(e) {
-	e.preventDefault();
-		console.log("submit");
+		var data = require('./professors.json');
+		e.preventDefault();
+		if(isNaN(this.state.inputValue)) {
+			var i = 0;
+			for (i = 0; i < data.length; i++) {
+				if(data[i]["first_name"].toLowerCase() == this.state.inputValue.toLowerCase() && data[i].floor == "first") {
+						this.setState({imgURL: '/images/' + data[i].floor + data[i].room + '.png'});
+						break;
+				}
+				else if(data[i]["last_name"].toLowerCase() == this.state.inputValue.toLowerCase() && data[i].floor == "first") {
+					this.setState({imgURL: '/images/' + data[i].floor + data[i].room + '.png'})
+					break;
+				}
+				else {
+					this.setState({imgURL: '/images/na.png'})
+				}
+			}
+		}
+		else {
+			var found = false;
+			var i = 0;
+			for (i = 0; i < data.length; i++) {
+				if(data[i].room == parseInt(this.state.inputValue)) {
+					this.setState({imgURL: '/images/' + data[i].floor + data[i].room + '.png'});
+					found = true;
+					break;
+				}
+			}
+			if (!found) {
+				this.setState({imgURL: '/images/na.png'});
+			}
+		}
 	}
 
 	handleChange(e) {
 		console.log(e.target.value);
 		this.setState({imgURL: '/images/' + e.target.value + '.png'});
+	}
+	updateInput(e){
+		this.setState({inputValue : e.target.value})
 	}
 
 }

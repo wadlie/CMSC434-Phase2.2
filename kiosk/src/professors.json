@@ -3,251 +3,293 @@
 		"first_name": "Daniel",
 		"middle_name": "",
 		"last_name": "Abadi",
+		"floor": "fifth",
 		"room": 5156
 	},
 	{
 		"first_name": "Ashok",
 		"middle_name": "",
 		"last_name": "Agrawala",
+		"floor": "fifth",
 		"room": 5144
 	},
 	{
 		"first_name": "John",
 		"middle_name": "",
 		"last_name": "Aloimonos",
+		"floor": "fourth",
 		"room": 4214
 	},
 	{
 		"first_name": "Leilani",
 		"middle_name": "",
 		"last_name": "Battle",
+		"floor": "fifth",
 		"room": 5148
 	},
 	{
 		"first_name": "Bobby",
 		"middle_name": "",
 		"last_name": "Bhattacharjee",
+		"floor": "fifth",
 		"room": 5140
 	},
 	{
 		"first_name": "Jordan",
 		"middle_name": "",
 		"last_name": "Boyd-Graber",
+		"floor": "fourth",
 		"room": 4146
 	},
 	{
 		"first_name": "Marine",
 		"middle_name": "",
 		"last_name": "Carpuat",
+		"floor": "fourth",
 		"room": 4130
 	},
 	{
 		"first_name": "Rance",
 		"middle_name": "",
 		"last_name": "Cleaveland",
+		"floor": "fifth",
 		"room": 5160
 	},
 	{
 		"first_name": "Hector",
 		"middle_name": "Corrada",
 		"last_name": "Bravo",
+		"floor": "third",
 		"room": 3226
 	},
 	{
 		"first_name": "Hal",
 		"middle_name": "",
 		"last_name": "Daume III",
+		"floor": "fourth",
 		"room": 4150
 	},
 	{
 		"first_name": "Larry",
 		"middle_name": "",
 		"last_name": "Davis",
+		"floor": "fourth",
 		"room": 4248
 	},
 	{
 		"first_name": "Amol",
 		"middle_name": "",
 		"last_name": "Deshpande",
+		"floor": "fifth",
 		"room": 5154
 	},
 	{
 		"first_name": "John",
 		"middle_name": "",
 		"last_name": "Dickerson",
+		"floor": "fourth",
 		"room": 4128
 	},
 	{
 		"first_name": "Ramani",
 		"middle_name": "",
 		"last_name": "Duraiswami",
+		"floor": "fourth",
 		"room": 4244
 	},
 	{
 		"first_name": "Howard",
 		"middle_name": "",
 		"last_name": "Elman",
+		"floor": "fourth",
 		"room": 4210
 	},
 	{	"first_name": "Fawzi",
 		"middle_name": "",
 		"last_name": "Emad",
+		"floor": "second",
 		"room": 2214
 	},
 	{
 		"first_name": "Soheil",
 		"middle_name": "",
 		"last_name": "Feizi",
+		"floor": "fourth",
 		"room": 4202
 	},
 	{
 		"first_name": "Jason",
 		"middle_name": "",
 		"last_name": "Filippou",
+		"floor": "second",
 		"room": 2206
 	},
 	{
 		"first_name": "William",
 		"middle_name": "",
 		"last_name": "Gasarch",
+		"floor": "second",
 		"room": 2242
 	},
 	{
 		"first_name": "Tom",
 		"middle_name": "",
 		"last_name": "Goldstein",
+		"floor": "fourth",
 		"room": 4212
 	},
 	{
 		"first_name": "Evan",
 		"middle_name": "",
 		"last_name": "Golub",
+		"floor": "first",
 		"room": 1210
 	},
 	{
 		"first_name": "Mohammad",
 		"middle_name": "",
 		"last_name":"Hajiaghayi",
+		"floor": "fifth",
 		"room": 5158
 	},
 	{
 		"first_name": "Larry",
 		"middle_name": "",
 		"last_name": "Herman",
+		"floor": "first",
 		"room": 1124
 	},
 	{
 		"first_name": "Michael",
 		"middle_name": "",
 		"last_name": "Hicks",
+		"floor": "fifth",
 		"room": 5246
 	},
 	{
 		"first_name": "Jeffrey",
 		"middle_name": "K",
 		"last_name": "Hollingsworth",
+		"floor": "fifth",
 		"room": 5152
 	},
 	{
 		"first_name": "Furong",
 		"middle_name": "",
 		"last_name": "Huang",
+		"floor": "fourth",
 		"room": 4204
 	},
 	{
 		"first_name": "Michelle",
 		"middle_name": "",
 		"last_name": "Hugue",
+		"floor": "first",
 		"room": 1250
 	},
 	{
 		"first_name": "David",
 		"middle_name": "",
 		"last_name": "Jacobs",
+		"floor": "fourth",
 		"room": 4240
 	},
 	{
 		"first_name": "Jonathan",
 		"middle_name": "",
 		"last_name": "Katz",
+		"floor": "fifth",
 		"room": 5226
 	},
 	{
 		"first_name": "Peter",
 		"middle_name": "",
 		"last_name": "Keleher",
+		"floor": "fifth",
 		"room": 5146
 	},
 	{
 		"first_name": "Samir",
 		"middle_name": "",
 		"last_name": "Khuller",
+		"floor": "fifth",
 		"room": 5128
 	},
 	{
 		"first_name": "Clyde",
 		"middle_name": "",
 		"last_name": "Kruskal",
+		"floor": "second",
 		"room": 2240
 	},
 	{
 		"first_name": "Max",
 		"middle_name": "",
 		"last_name": "Leiserson",
+		"floor": "third",
 		"room": 3244
 	},
 	{
 		"first_name": "Dave",
 		"middle_name": "",
 		"last_name": "Levin",
+		"floor": "fifth",
 		"room": 5222
 	},
 	{
 		"first_name": "Ming",
 		"middle_name": "",
 		"last_name": "Lin",
+		"floor": "second",
 		"room": 2134
 	},
 	{
 		"first_name": "Anwar",
 		"middle_name": "",
 		"last_name": "Mamat",
+		"floor": "first",
 		"room": 1212
 	}, 
 	{
 		"first_name": "Dinesh",
 		"middle_name": "",
 		"last_name": "Manocha",
+		"floor": "fifth",
 		"room": 5202
 	},
 	{
 		"first_name": "Michael",
 		"middle_name": "",
 		"last_name": "Marsh",
+		"floor": "second",
 		"room": 2218
 	},
 	{
 		"first_name": "Michelle",
 		"middle_name": "",
 		"last_name": "Mazurek",
+		"floor": "fifth",
 		"room": 5236
 	},
 	{
 		"first_name": "Atif",
 		"middle_name": "",
 		"last_name": "Memon",
+		"floor": "fifth",
 		"room": 5204
 	},
 	{
 		"first_name": "David",
 		"middle_name": "",
 		"last_name": "Mount",
+		"floor": "fourth",
 		"room": 4162
 	},
 	{
 		"first_name": "Dana",
 		"middle_name": "",
 		"last_name": "Nau",
+		"floor": "fourth",
 	       	"room": 4158	
 
 	},
@@ -255,150 +297,175 @@
 		"first_name": "Nelson",
 		"middle_name": "",
 		"last_name": "Padua-Perez",
+		"floor": "second",
 		"room": 2210
 	},
 	{
 		"first_name": "Huaishu",
 		"middle_name": "",
 		"last_name": "Peng",
+		"floor": "fourth",
 		"room": 4206
 	}, 
 	{
 		"first_name": "Don",
 		"middle_name": "",
 		"last_name": "Perlis",
+		"floor": "fourth",
 		"room": 4156
 	},
 	{
 		"first_name": "Jandelyn",
 		"middle_name": "",
 		"last_name": "Plane",
+		"floor": "first",
 		"room": 1202
 	},
 	{
 		"first_name": "Mihai",
 		"middle_name": "",
 		"last_name": "Pop",
+		"floor": "third",
 		"room": 3222
 	},
 	{
 		"first_name": "Adam",
 		"middle_name": "",
 		"last_name": "Porter",
+		"floor": "fifth",
 		"room": 5212
 	},
 	{
 		"first_name": "James",
 		"middle_name": "",
 		"last_name": "Purtilo",
+		"floor": "fifth",
 		"room": 5214
 	},
 	{
 		"first_name": "James",
 		"middle_name": "",
 		"last_name": "Reggia",
+		"floor": "fourth",
 		"room": 4124
 	},
 	{
 		"first_name": "William",
 		"middle_name": "",
 		"last_name": "Regli",
-		"room": 22224
+		"floor": "second",
+		"room": 2224
 	},
 	{
 		"first_name": "Nicholas",
 		"middle_name": "",
 		"last_name": "Roussopoulos",
+		"floor": "second",
 		"room": 2160
 	},
 	{
 		"first_name": "Nirupam",
 		"middle_name": "",
 		"last_name": "Roy",
+		"floor": "fifth",
 		"room": 5240
 	},
 	{
 		"first_name": "Pedram",
 		"middle_name": "",
 		"last_name": "Sadeghian",
+		"floor": "first",
 		"room": 1214
 	},
 	{
 		"first_name": "Hanan",
 		"middle_name": "",
 		"last_name": "Samet",
+		"floor": "fourth",
 		"room": "4252"
 	},
 	{
 		"first_name": "Vibha",
 		"middle_name": "",
 		"last_name": "Sazawal",
+		"floor": "first",
 		"room": 1252
 	},
        	{
 		"first_name": "A",
 		"middle_name": "Udaya",
 		"last_name": "Shankar",
+		"floor": "fifth",
 		"room": "5150"
 	},
 	{
 		"first_name": "Abhinav",
 		"middle_name": "",
 		"last_name": "Shrivastava",
+		"floor": "fourth",
 		"room": 4238
 	},
 	{
 		"first_name": "Neil",
 		"middle_name": "",
 		"last_name": "Spring",
+		"floor": "fifth",
 		"room": 5138
 	},
 	{
 		"first_name": "Aravind",
 		"middle_name": "",
 		"last_name": "Srinivasan",
+		"floor": "fourth",
 		"room": 4164
        	},
 	{
 		"first_name": "Alan",
 		"middle_name": "",
 		"last_name": "Sussman",
+		"floor": "fifth",
 		"room": 5142
 	},
 	{
 		"first_name": "Mohammad",
 		"middle_name": "Nayeem",
 		"last_name": "Teli",
+		"floor": "first",
 		"room": 1128
 	},
 	{
 		"first_name": "David",
 		"middle_name": "Van",
 		"last_name": "Horn",
+		"floor": "fifth",
 		"room": 5250
 	},
 	{
 		"first_name": "Amitabh",
 		"middle_name": "",
 		"last_name": "Varshney",
+		"floor": "third",
 		"room": 3212
 	},
 	{
 		"first_name": "Xiaodi",
 		"middle_name": "",
 		"last_name": "Wu",
+		"floor": "fifth",
 		"room": 5210
 	},
 	{
 		"first_name": "Ilchul",
 		"middle_name": "",
 		"last_name": "Yoon",
+		"floor": "first",
 		"room": 1248
 	},
 	{
 		"first_name": "Matthias",
 		"middle_name": "",
 		"last_name": "Zwicker",
+		"floor": "fifth",
 		"room": 5206
 	}
 
