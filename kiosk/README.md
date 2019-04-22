@@ -1,6 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Prequisite
+
+To run this react app you will need Node.js and NPM.
+You can download them here // https://wsvincent.com/install-node-js-npm-windows/
+
+The two main command line you will need will be 'npm i' and 'npm start'
+
 ## Available Scripts
+
+To get the node_modules run :
+
+### `npm i`
 
 In the project directory, you can run:
 
