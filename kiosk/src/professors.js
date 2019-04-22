@@ -654,11 +654,13 @@ class Professor extends Component {
           </div>
           <div
             style={{
-              width: "50%",
+              minHeight: "40px",
+              minWidth: "50%",
+              width: "70%",
               fontSize: 40,
-              border: "10px solid black",
-              top: "130px",
-              right: "130px",
+
+              top: "165px",
+              right: "35px",
               position: "absolute"
             }}
           >
