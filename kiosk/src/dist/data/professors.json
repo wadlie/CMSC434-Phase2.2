@@ -1,0 +1,406 @@
+[
+	{
+		"first_name": "Daniel",
+		"middle_name": "",
+		"last_name": "Abadi",
+		"room": 5156
+	},
+	{
+		"first_name": "Ashok",
+		"middle_name": "",
+		"last_name": "Agrawala",
+		"room": 5144
+	},
+	{
+		"first_name": "John",
+		"middle_name": "",
+		"last_name": "Aloimonos",
+		"room": 4214
+	},
+	{
+		"first_name": "Leilani",
+		"middle_name": "",
+		"last_name": "Battle",
+		"room": 5148
+	},
+	{
+		"first_name": "Bobby",
+		"middle_name": "",
+		"last_name": "Bhattacharjee",
+		"room": 5140
+	},
+	{
+		"first_name": "Jordan",
+		"middle_name": "",
+		"last_name": "Boyd-Graber",
+		"room": 4146
+	},
+	{
+		"first_name": "Marine",
+		"middle_name": "",
+		"last_name": "Carpuat",
+		"room": 4130
+	},
+	{
+		"first_name": "Rance",
+		"middle_name": "",
+		"last_name": "Cleaveland",
+		"room": 5160
+	},
+	{
+		"first_name": "Hector",
+		"middle_name": "Corrada",
+		"last_name": "Bravo",
+		"room": 3226
+	},
+	{
+		"first_name": "Hal",
+		"middle_name": "",
+		"last_name": "Daume III",
+		"room": 4150
+	},
+	{
+		"first_name": "Larry",
+		"middle_name": "",
+		"last_name": "Davis",
+		"room": 4248
+	},
+	{
+		"first_name": "Amol",
+		"middle_name": "",
+		"last_name": "Deshpande",
+		"room": 5154
+	},
+	{
+		"first_name": "John",
+		"middle_name": "",
+		"last_name": "Dickerson",
+		"room": 4128
+	},
+	{
+		"first_name": "Ramani",
+		"middle_name": "",
+		"last_name": "Duraiswami",
+		"room": 4244
+	},
+	{
+		"first_name": "Howard",
+		"middle_name": "",
+		"last_name": "Elman",
+		"room": 4210
+	},
+	{	"first_name": "Fawzi",
+		"middle_name": "",
+		"last_name": "Emad",
+		"room": 2214
+	},
+	{
+		"first_name": "Soheil",
+		"middle_name": "",
+		"last_name": "Feizi",
+		"room": 4202
+	},
+	{
+		"first_name": "Jason",
+		"middle_name": "",
+		"last_name": "Filippou",
+		"room": 2206
+	},
+	{
+		"first_name": "William",
+		"middle_name": "",
+		"last_name": "Gasarch",
+		"room": 2242
+	},
+	{
+		"first_name": "Tom",
+		"middle_name": "",
+		"last_name": "Goldstein",
+		"room": 4212
+	},
+	{
+		"first_name": "Evan",
+		"middle_name": "",
+		"last_name": "Golub",
+		"room": 1210
+	},
+	{
+		"first_name": "Mohammad",
+		"middle_name": "",
+		"last_name":"Hajiaghayi",
+		"room": 5158
+	},
+	{
+		"first_name": "Larry",
+		"middle_name": "",
+		"last_name": "Herman",
+		"room": 1124
+	},
+	{
+		"first_name": "Michael",
+		"middle_name": "",
+		"last_name": "Hicks",
+		"room": 5246
+	},
+	{
+		"first_name": "Jeffrey",
+		"middle_name": "K",
+		"last_name": "Hollingsworth",
+		"room": 5152
+	},
+	{
+		"first_name": "Furong",
+		"middle_name": "",
+		"last_name": "Huang",
+		"room": 4204
+	},
+	{
+		"first_name": "Michelle",
+		"middle_name": "",
+		"last_name": "Hugue",
+		"room": 1250
+	},
+	{
+		"first_name": "David",
+		"middle_name": "",
+		"last_name": "Jacobs",
+		"room": 4240
+	},
+	{
+		"first_name": "Jonathan",
+		"middle_name": "",
+		"last_name": "Katz",
+		"room": 5226
+	},
+	{
+		"first_name": "Peter",
+		"middle_name": "",
+		"last_name": "Keleher",
+		"room": 5146
+	},
+	{
+		"first_name": "Samir",
+		"middle_name": "",
+		"last_name": "Khuller",
+		"room": 5128
+	},
+	{
+		"first_name": "Clyde",
+		"middle_name": "",
+		"last_name": "Kruskal",
+		"room": 2240
+	},
+	{
+		"first_name": "Max",
+		"middle_name": "",
+		"last_name": "Leiserson",
+		"room": 3244
+	},
+	{
+		"first_name": "Dave",
+		"middle_name": "",
+		"last_name": "Levin",
+		"room": 5222
+	},
+	{
+		"first_name": "Ming",
+		"middle_name": "",
+		"last_name": "Lin",
+		"room": 2134
+	},
+	{
+		"first_name": "Anwar",
+		"middle_name": "",
+		"last_name": "Mamat",
+		"room": 1212
+	}, 
+	{
+		"first_name": "Dinesh",
+		"middle_name": "",
+		"last_name": "Manocha",
+		"room": 5202
+	},
+	{
+		"first_name": "Michael",
+		"middle_name": "",
+		"last_name": "Marsh",
+		"room": 2218
+	},
+	{
+		"first_name": "Michelle",
+		"middle_name": "",
+		"last_name": "Mazurek",
+		"room": 5236
+	},
+	{
+		"first_name": "Atif",
+		"middle_name": "",
+		"last_name": "Memon",
+		"room": 5204
+	},
+	{
+		"first_name": "David",
+		"middle_name": "",
+		"last_name": "Mount",
+		"room": 4162
+	},
+	{
+		"first_name": "Dana",
+		"middle_name": "",
+		"last_name": "Nau",
+	       	"room": 4158	
+
+	},
+	{
+		"first_name": "Nelson",
+		"middle_name": "",
+		"last_name": "Padua-Perez",
+		"room": 2210
+	},
+	{
+		"first_name": "Huaishu",
+		"middle_name": "",
+		"last_name": "Peng",
+		"room": 4206
+	}, 
+	{
+		"first_name": "Don",
+		"middle_name": "",
+		"last_name": "Perlis",
+		"room": 4156
+	},
+	{
+		"first_name": "Jandelyn",
+		"middle_name": "",
+		"last_name": "Plane",
+		"room": 1202
+	},
+	{
+		"first_name": "Mihai",
+		"middle_name": "",
+		"last_name": "Pop",
+		"room": 3222
+	},
+	{
+		"first_name": "Adam",
+		"middle_name": "",
+		"last_name": "Porter",
+		"room": 5212
+	},
+	{
+		"first_name": "James",
+		"middle_name": "",
+		"last_name": "Purtilo",
+		"room": 5214
+	},
+	{
+		"first_name": "James",
+		"middle_name": "",
+		"last_name": "Reggia",
+		"room": 4124
+	},
+	{
+		"first_name": "William",
+		"middle_name": "",
+		"last_name": "Regli",
+		"room": 22224
+	},
+	{
+		"first_name": "Nicholas",
+		"middle_name": "",
+		"last_name": "Roussopoulos",
+		"room": 2160
+	},
+	{
+		"first_name": "Nirupam",
+		"middle_name": "",
+		"last_name": "Roy",
+		"room": 5240
+	},
+	{
+		"first_name": "Pedram",
+		"middle_name": "",
+		"last_name": "Sadeghian",
+		"room": 1214
+	},
+	{
+		"first_name": "Hanan",
+		"middle_name": "",
+		"last_name": "Samet",
+		"room": "4252"
+	},
+	{
+		"first_name": "Vibha",
+		"middle_name": "",
+		"last_name": "Sazawal",
+		"room": 1252
+	},
+       	{
+		"first_name": "A",
+		"middle_name": "Udaya",
+		"last_name": "Shankar",
+		"room": "5150"
+	},
+	{
+		"first_name": "Abhinav",
+		"middle_name": "",
+		"last_name": "Shrivastava",
+		"room": 4238
+	},
+	{
+		"first_name": "Neil",
+		"middle_name": "",
+		"last_name": "Spring",
+		"room": 5138
+	},
+	{
+		"first_name": "Aravind",
+		"middle_name": "",
+		"last_name": "Srinivasan",
+		"room": 4164
+       	},
+	{
+		"first_name": "Alan",
+		"middle_name": "",
+		"last_name": "Sussman",
+		"room": 5142
+	},
+	{
+		"first_name": "Mohammad",
+		"middle_name": "Nayeem",
+		"last_name": "Teli",
+		"room": 1128
+	},
+	{
+		"first_name": "David",
+		"middle_name": "Van",
+		"last_name": "Horn",
+		"room": 5250
+	},
+	{
+		"first_name": "Amitabh",
+		"middle_name": "",
+		"last_name": "Varshney",
+		"room": 3212
+	},
+	{
+		"first_name": "Xiaodi",
+		"middle_name": "",
+		"last_name": "Wu",
+		"room": 5210
+	},
+	{
+		"first_name": "Ilchul",
+		"middle_name": "",
+		"last_name": "Yoon",
+		"room": 1248
+	},
+	{
+		"first_name": "Matthias",
+		"middle_name": "",
+		"last_name": "Zwicker",
+		"room": 5206
+	}
+
+
+]
