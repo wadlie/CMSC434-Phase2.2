@@ -5,12 +5,12 @@ import 'bootstrap/dist/css/bootstrap.css';
 class Classes extends Component {
 	constructor(props) {
 		super(props);
-		this.state = {floor: 0, room: 0, imgURL: '/images/ground0000.png'};
+		this.state = {floor: 0, room: 0, imgURL: '/images/ground0000.png', inputValue: ''};
 		this.handleSubmit = this.handleSubmit.bind(this);
 		this.handleChange = this.handleChange.bind(this);
 		this.updateInput = this.updateInput.bind(this);
 	}
-
+o
     render() {
         var displayStyle = {
             display: "block",
@@ -20,7 +20,7 @@ class Classes extends Component {
         }
         return (
 		<div>
-			<select onChange = {this.handleChange}>
+			<select id = "sel" onChange = {this.handleChange}>
 		  		<option value="ground0000">Ground Floor</option>
 		  		<option value="first0000">Floor 1</option>
 		  		<option value="na">Floor 2</option>
@@ -40,7 +40,13 @@ class Classes extends Component {
 	handleSubmit(e) {
 		var data = require('./professors.json');
 		e.preventDefault();
-		if(isNaN(this.state.inputValue)) {
+		if (this.state.inputValue == "" || this.state.inputValue.length == 0) {
+			document.getElementById('sel').value = "ground0000"
+			this.setState({imgURL: '/images/ground0000.png'});
+
+
+		}
+		else if(isNaN(this.state.inputValue)) {
 			var i = 0;
 			for (i = 0; i < data.length; i++) {
 				if(data[i]["first_name"].toLowerCase() == this.state.inputValue.toLowerCase() && data[i].floor == "first") {
@@ -48,11 +54,16 @@ class Classes extends Component {
 						break;
 				}
 				else if(data[i]["last_name"].toLowerCase() == this.state.inputValue.toLowerCase() && data[i].floor == "first") {
-					this.setState({imgURL: '/images/' + data[i].floor + data[i].room + '.png'})
+					this.setState({imgURL: '/images/' + data[i].floor + data[i].room + '.png'});
+					break;
+				}
+				else if (((data[i]["first_name"].toLowerCase() + '' + data[i]["last_name"].toLowerCase()))
+					== ((this.state.inputValue.toLowerCase()).replace(/\s/g, ''))) {
+					this.setState({imgURL: '/images/' + data[i].floor + data[i].room + '.png'});
 					break;
 				}
 				else {
-					this.setState({imgURL: '/images/na.png'})
+					this.setState({imgURL: '/images/na.png'});
 				}
 			}
 		}
